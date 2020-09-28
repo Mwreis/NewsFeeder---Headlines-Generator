@@ -30,7 +30,7 @@ The plugin has more than 27 of the most important news channels in the world, wh
 
 
 # Add Front Post
-## WordPress Plugin Front-Page Generator v.1.2
+## Premium WordPress Plugin Front-Page Generator v.1.2
 
 
 ![inline-preview2](https://user-images.githubusercontent.com/20075622/94388037-44387a80-0122-11eb-92b7-e487969ecca3.png)
