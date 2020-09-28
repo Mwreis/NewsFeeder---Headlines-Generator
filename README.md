@@ -16,4 +16,7 @@ NewsFeeder is a WordPress plugin headline generator or news generator, through k
 The plugin has more than 27 of the most important news channels in the world, which update and make daily news available, so you have quality content provided by all the major channels and news. You can also embed news stories as posts in WordPress, and make them available as blog content, custom news sites, custom ezines.
 
 
+#
+
+
 ![channels-screen](https://user-images.githubusercontent.com/20075622/94385144-b73df300-011a-11eb-807d-a40fbe8727bb.png)
