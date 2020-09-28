@@ -1,4 +1,4 @@
-# NewsFeeder---Headlines-Generator
+# NewsFeeder-Headlines-Generator
 ![logo2](https://user-images.githubusercontent.com/20075622/94384537-3500ff00-0119-11eb-9b88-727d0e81f51d.png)
 
 NEWSFEEDER
