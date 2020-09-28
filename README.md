@@ -47,5 +47,5 @@ There are several possible combinations, with multiple **grid layout design, ima
 ![05_preview5](https://user-images.githubusercontent.com/20075622/94388053-4f8ba600-0122-11eb-89bc-806af956687e.jpg)
 
 
-**Build Beautiful Front-Pages for Your News and Magazine Sites [Learn More](https://codecanyon.net/item/add-front-post-wordpress-plugin-frontpage-generator/21026084)**
+>**Build Beautiful Front-Pages for Your News and Magazine Sites [Learn More](https://codecanyon.net/item/add-front-post-wordpress-plugin-frontpage-generator/21026084)**
 
