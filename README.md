@@ -1,5 +1,15 @@
 # NewsFeeder---Headlines-Generator
 ![logo2](https://user-images.githubusercontent.com/20075622/94384537-3500ff00-0119-11eb-9b88-727d0e81f51d.png)
-https://preview.codecanyon.net/item/add-front-post-wordpress-plugin-frontpage-generator/full_screen_preview/21026084?_ga=2.73475802.950858497.1601260491-181572095.1601187935
+
+NEWSFEEDER
+WordPress Plugin Headline Generator v1.0
+
+NewsFeeder is a WordPress plugin headline generator or news generator, through keyword research or news channels. The plugin uses JSON technology to generate results feeds, updated at all times by news sources.
+
+Web Search News
+Through word search you can have access to any news in the world, according to the subject you want. You can also embed news stories as posts in WordPress, and make them available as blog content, custom news sites, custom ezines.
+
+News Channels
+The plugin has more than 27 of the most important news channels in the world, which update and make daily news available, so you have quality content provided by all the major channels and news. You can also embed news stories as posts in WordPress, and make them available as blog content, custom news sites, custom ezines.
 
 
