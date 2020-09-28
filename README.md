@@ -20,3 +20,15 @@ The plugin has more than 27 of the most important news channels in the world, wh
 
 
 ![channels-screen](https://user-images.githubusercontent.com/20075622/94385144-b73df300-011a-11eb-807d-a40fbe8727bb.png)
+
+
+# ADD FRONT POST - WordPress Plugin Front-Page Generator v.1.2
+
+
+![header](https://user-images.githubusercontent.com/20075622/94387305-266a1600-0120-11eb-8bcd-d9a0b4fb4a1c.png)
+
+
+Add Front Post is a WordPress plugin generating front-pages. Through widgets and settings panels, you build your website the way you want, displaying your posts in an elegant and professional way. WordPress by default provides posts page, and Add Front Posts plugin provides the ability to create front-page in an easy and intuitive way.
+
+There are several possible combinations, with multiple grid layout design, image gallery,image slider and block sections. Ideal for wordpress blog and provide resources such as post design, blog design, wordpress page template, template blog, grid layouts, image slider,image gallery, newspaper template, among others!
+
