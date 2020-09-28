@@ -53,5 +53,5 @@ There are several possible combinations, with multiple **grid layout design, ima
 
 #
 
-**Build subscribable front-pages for your news and magazine sites [Learn More](https://codecanyon.net/item/add-front-post-wordpress-plugin-frontpage-generator/21026084)**
+### Build Beautiful Front-Pages for Your News and Magazine Sites [Learn More](https://codecanyon.net/item/add-front-post-wordpress-plugin-frontpage-generator/21026084)
 
