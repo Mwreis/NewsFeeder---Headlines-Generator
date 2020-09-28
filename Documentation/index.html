@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="We develop plugins that interact with several APIs, thus facilitating your work since interacting with an API, you have much more productivity in your business">
+	<meta name="keywords" content="WordPress Plugins, News, Headlines, Generating Headlines, JSON, API, Feeds, Front-End, Design">
+    <meta name="author" content="WebberAction">
+
+    <title>NewsFeeder Documentation Plugin</title>
+
+    <!-- Bootstrap Core CSS -->
+	<link rel="icon" href="images/newsfeeder16.png" type="image/x-icon" />
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" style="overflow:hidden;">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#" style="font-size:17px;">
+					<img src="images/newsfeeder.png" alt="NewsFeeder logo" style="width:auto;height:16px;">
+                        NewsFeeder Plugin v1.2
+                    </a>
+                </li>
+				<br/>
+                <li>
+                    <a href="#installation">Installation</a>
+                </li>
+                <li>
+                    <a href="#welcome">Welcome Panel</a>
+                </li>
+                <li>
+                    <a href="#websearch">Web Search Panel</a>
+                </li>
+                <li>
+                    <a href="#channels">Channels Panel</a>
+                </li>
+                <li>
+                    <a href="#options">Options Panel</a>
+                </li>
+                <li>
+                    <a href="#posttemplate">Post Page List</a>
+                </li>
+				<li>
+                    <a href="#customFront">Custom Front Page</a>
+                </li>
+				<li>
+                    <a href="#customizer">Customizer</a>
+                </li>
+				<li>
+                    <a href="#uninstall">Uninstall</a>
+                </li>
+				<li>
+                    <a href="#credits">Credits</a>
+                </li>
+				
+				<li style="color:#999;font-size:12px;">Powered by <img src="images/wa.png" alt="WebberAction logo" style="width:auto;height:18px;background:#fff;"></li>
+            </ul>
+			
+			
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="top">								
+						<hr>						
+						
+                        <h4 style="color:#777;"><img src="images/newsfeeder.png" alt="NewsFeeder logo" style="width:auto;height:45px;margin-right:10px;"><i>"NewsFeeder" Documentation by <img src="images/wa.png" alt="WebberAction logo" style="width:auto;height:27px;"> v1.2</i></h4>
+						<hr>
+						<h1>"NewsFeeder - WordPress Headlines Plugin"</h1>
+						<div class="col-lg-6">	
+							<hr>
+							<p>
+							<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a></p>
+						</div>						
+                    </div>
+					<div class="col-lg-12" id="installation">
+                       <hr>
+						<h1>Installation</h1><hr/>						
+						<p>To do the installation, go to the admin menu and click on <b>'Plugins' -> 'Add New' -> 'Upload Plugin'</b></p>
+						<u>Figure 1</u>
+						<p><img src="images/nf-addnew.jpg" alt="Add New Plugin Panel"></p>	
+						<hr>
+						<p>Then choose the zipped file of the plugin in your directory that you saved and click open, wordpress will do the installation. Click on <b>'Activate'</b></p>
+						<u>Figure 2</u>
+						<p><img src="images/nf-activation.jpg" alt="Add New Plugin Panel"></p>
+						<hr>
+						<p>
+						Ready! The plugin is installed and activated.</p>
+						<u>Figure 3</u>
+						<p><img src="images/nf-activated.jpg" alt="Activated Plugin Panel"></p>
+						<hr>
+						<h1>Manual installation</h1><br />
+						<ol>
+						  <li>Unpack the download package <b>'NewsFeeder-Headlines'</b>.</li>
+						  <li>Upload the file to the <b>'/wp-content/plugins/'</b> directory.</li>
+						  <li>Activate the plugin through the 'Plugins' menu in WordPress.</li>
+						  <li>Go to <b>'Appearance -> Widgets Section -> Select Plugin 'NewsFeeder-Headlines'</b>.</li>
+						  <li>Done and Ready.</li>
+						</ol> 
+                    </div>
+					<div class="col-lg-12" id="welcome"> 
+						<hr>
+						<h1>Welcome Panel <div class="scroll-top"><a href="#top">Top</a></div></h1><hr>
+						<p>This is the page of Welcome. Next door is the access menu.</p>
+						<u>Figure 4</u>
+						<p><img src="images/welcome-img.jpg" alt="Welcome Panel"></p>
+						<hr>
+						<p>The page has 2 tabs, the <b>'Welcome'</b> tab and the <b>'Terms'</b> tab.</p>
+						<p>In the 'welcome' tab are the initial quick instructions, and the <b>'Get API key'</b> button to acquire the API key, which will be required to receive the news through channels from around the world. Also on this page are the external links <b>'NewsFeeder in action'</b> to view the plugin in action, <b>'See our documentation'</b> to access this documentation, and <b>'Support'</b> for the contact with our team.</p>
+						<p>In the <b>'Terms'</b> tab are some basic explanations about the terms of use, they are not restrictions or limitations, only some guidelines on the responsibilities and functions that are directly or not related to the plugin, since it depends on external services for their full functioning.</p>
+						<p>Let's explore a little more? Go to the next topic!</p>					
+                    </div>
+					
+					<div class="col-lg-12" id="websearch">  
+						<hr>
+						<h1>Web Search Panel </h1><hr>
+						<p><b style="color:#ffba00;border-left:5px solid #ffba00;padding-left:5px;">Important!</b><b> You need an internet connection to use the external feed results in the plugin. Make sure your internet has a good connection and is not overloaded.</b></p><br/>
+						<p>Below is the <b>'Web Search'</b> menu and page. It starts with the search field, and does not require an API key.</p>
+						<u>Figure 5</u>
+						<p><img src="images/websearch-img.jpg" alt="Web Search Panel"></p>
+						<hr>
+						<p>Just enter your search information, and you will be directed to the results page, as shown in Figure 6 below:</p>
+						<u>Figure 6</u>
+						<p><img src="images/screen-websearch-results.jpg" alt="Web Search Results"></p>
+						<hr>	
+						<br/>
+						<p>After clicking on the <b>'Auto insert posts'</b> checkbox, the following options will be shown:</p>
+						<u>Figure 7</u>
+						<p><img src="images/screen-websearch-results-options.jpg" alt="Web Search Results Options"></p><br/>
+						<p><b style="color:green;border-left:5px solid green;padding-left:5px;">Tip!</b><b> When entering this page through the menu, always update the results in the 'Save' button before clicking on the 'Auto insert posts' checkbox to insert posts. If you choose to insert posts, wait 30 to 60 seconds to complete, depending on the size of the images and your internet connection. Larger images take longer to insert.</b><br/>If external results are not currently available, you will not be able to enter posts.</p><br/>
+						<p>After successfully completing the insertion of posts, the message will be displayed at the top of the page as shown below:</p>
+						<u>Figure 8</u>
+						<p><img src="images/insert-post-sucess-screen.jpg" alt="Web Search Results Options"></p><br/>
+						<p>Existing posts will be updated.</p>
+						<u>Figure 9</u>
+						<p><img src="images/updated-post-sucess-screen.jpg" alt="Web Search Results Options"></p>
+						<hr>
+						
+						<p>As 'Figure 7', the first available option for the posts are the categories that you intend to enter the results. To do this, you must create the categories for each post, just go to the <b>'Posts'</b> menu and the <b>'categories'</b> submenu in the admin menu.</p>
+						<p>If you do not create or choose any category, the posts will be included as <b>'Uncategorized'</b>.</p>
+						<p>After creating the required categories, they will be available in the <b>'Select a category for post'</b> dropdown menu as shown in figure 11 above.</p>
+						<p>Following is the checkbox <b>'Open the author link on the same tab?'</b>. Each inserted post will have available the link from the original source of the news, by default the links will be directed to a new tab, if you choose to click on this option, they will open in the same tab.</p>
+						<p>To insert the posts, after choosing the options mentioned above and shown in 'Figure 7', it is only necessary to click on the <b>'Auto insert posts'</b> checkbox and click on the <b>'Save'</b> button. All 10 results for the search in question will be inserted into the WordPress database in the <b>'wp_posts'</b> table.</p>
+						<p>The posts will be available in the <b>'Posts'</b> menu, and the images available for each post will be inserted in the <b>'Media'</b> menu.</p>
+						<p>In the post menu is displayed the attributes of the post, such as <b>'Title'</b>, <b>'Categories'</b>, <b>'Tags'</b> and <b>'Date'</b>.</p>
+						<p>All these attributes will be available on your website, fully functional. For more details, go to topic menu <b>'Post Templates'</b>.</p><br/>
+						<p>After choosing the options, click the <b>'Save'</b> button and wait 30 to 60 seconds for the posts to be included.</p>
+
+                    </div>
+					
+					<div class="col-lg-12" id="channels">  
+						<hr>
+						<h1>Channels Panel </h1><hr>
+						<p><b style="color:#ffba00;border-left:5px solid #ffba00;padding-left:5px;">Important!</b><b> You need an internet connection to use the external feed results in the plugin. Make sure your internet has a good connection and is not overloaded.</b></p><br/>
+						<p>In this panel you have the opportunity to get results through an API key. The advantage is that you get daily news headlines made every day by channels dedicated to delivering quality content.
+						</p>
+						<p>In the <b>'Channels'</b> menu we have the initial screen with the available channels and the field for insertion of the API key. To get the API key, make a <a href="https://newsapi.org/terms" target="_blank">brief registration here.</a></p>
+						
+						<u>Figure 10</u>
+						<p><img src="images/channels-pannel-select.jpg" alt="Select Channels"></p>
+						<hr>	
+						<u>Figure 11</u>
+						<p><img src="images/channels-pannel-api.jpg" alt="Select Channels API"></p>
+						<hr>	
+						<br/>
+						<p>After obtaining your API key, enter in the <b>'API Key'</b> field, select the desired channel and click the <b>'save'</b> button. The page will return the results to the chosen channel. Each query will return 10 results per channel, each result is updated according to channel availability.</p>
+						<p>These results will now be available for the <b>'Channel News'</b> widget in the Headline Feeds format. You can display them in the Sidebar for example, and you can also include them as posts as illustrated below:</p>
+						<u>Figure 12</u>
+						<p><img src="images/channels-pannel-results.jpg" alt="Channels Results Panel"></p><br/>
+						<p><b style="color:green;border-left:5px solid green;padding-left:5px;">Tip!</b><b> When entering this page through the menu, always update the results in the 'Save' button before clicking on the 'Auto insert posts' checkbox to insert posts. If you choose to insert posts, wait 30 to 60 seconds to complete, depending on the size of the images and your internet connection. Larger images take longer to insert.</b><br/>If external results are not currently available, you will not be able to enter posts.</p>
+						<p><b>Note:</b> Inserting posts through the <b>'Associated Press'</b> channel may take up to 2 minutes or more to complete, because all posts have their featured image in full size, the time may also vary depending of your internet connection.</p>
+						<p> This can happen with any channel that provides at a given moment all posts with full-size featured images, but usually happens with the channel described above.</p>
+						<hr>
+												
+						<p>As 'Figure 12', you can choose which category or channel the posts will be inserted in. (To do this, you must first create categories / subcategories and or channels in the <b>'Posts' / 'Categories'</b> menu of WordPress).</p>							
+						<p>Following, in the first option as detailed in the previous topic, is the checkbox <b>'Open the author link on the same tab?'</b>. Each inserted post will have available the link from the original source of the news, by default the links will be directed to a new tab, if you choose to click on this option, they will open in the same tab.</p>
+						<p>In the second option we have the checkbox <b>'Remove attribution link to API source?'</b>, Which as the name says, serves to remove the API source link that makes all channels available.<p>
+						<p>After inserting the posts will be shown the result according to an example shown in figures 8 and 9.</p>
+                    </div>
+					
+					<div class="col-lg-12" id="options">  
+						<hr>
+						<h1>Options Panel </h1><hr>						
+						<p>In the <b>'Clear Settings'</b> tab we have the following options:</p>
+						
+						<p>If you want to clean your database after uninstalling the plugin, you can delete options and posts inserted in the database through the image checkboxes below:</p>
+						<p><b>Back-end:</b></p> <u>Figure 13</u>						
+						<p><img src="images/option-page-clear.jpg" alt="Options Page Clear"></p>
+						<hr>
+						<p><b>'News by Search'</b></p>
+						<p>1. <b>'Remove JSON search results from database?'</b> - Removes all options entered on the <b>'Web Search'</b> menu item page.</p>
+						<p>2. <b>'Remove posts inserted in the database?'</b> - Removes all inserted posts through the <b>'Web Search'</b> menu item page.<p><br/>
+						
+						<p><b>'News by Channels'</b></p>
+						<p>1. <b>'Remove API key and JSON results from database?'</b> - Removes all options entered on the page of the <b>'Channels'</b> menu item.</p>
+						<p>2. <b>'Remove posts inserted in the database?'</b> - Removes all inserted posts through the page of the <b>'Channels'</b> menu item.</p><br/>
+						<p><b>Note:</b> Removing posts as shown in the options in 'Figure 13' above will remove all posts in the database securely.</p>
+
+                    </div>
+					
+					<div class="col-lg-12" id="posttemplate">  
+						<hr>
+						<h1>Post Page List </h1><hr>
+						<p>All posts will be inserted in the default form, they will be available in the <b>'Posts'</b> menu of WordPress, and can be used in any WordPress theme.</p>
+						<p>Below the <b>'Posts'</b> menu</p>
+						<u>Figure 14</u>						
+						<p><img src="images/posts-screen.jpg" alt="Posts Screen Panel"></p><br/>
+						<p><b style="color:#ffba00;border-left:5px solid #ffba00;padding-left:5px;">Important!</b><b> If you delete a post from this panel above in 'Figure 14', do not forget to delete the corresponding image in 'Media' menu as 'Figure 16', because the image will be deprecated and will only take up space in the database of your site. Each image corresponds to a post and you can see the title of the post in the 'Uploaded to' field in the 'Media' menu.</b></p>
+						
+						<p><b>Note:</b> if you are going to delete a post, you should delete the post permanently from the database, so select the post (s) through the checkbox, then choose <b>'Move to Trash'</b> option in the <b>'Bulk Actions'</b> dropdown, and <b>'Delete Permanently'</b> in the <b>'Trash'</b> link.</p>
+						<p>Disregard the instructions above if you use the options shown in 'Figure 13'.</p>
+						<hr>
+				
+						<p><b>'Categories'</b> submenu</p>	
+						<u>Figure 15</u>
+						<p><img src="images/categories-posts-screen.jpg" alt="Categories Screen Panel"></p>
+						<hr>
+						<p>And all images available on <b>'Media'</b> menu.</p>	
+						<u>Figure 16</u>
+						<p><img src="images/post-media-screen.jpg" alt="Post Media Panel"></p><br/>
+						<p><b style="color:#ffba00;border-left:5px solid #ffba00;padding-left:5px;">Important!</b><b> If you delete some image do not forget to delete the corresponding post if this exists. Each image shows the corresponding post title in the 'Uploaded to' field on the 'Media' menu as shown in Figure 16 above.</b></p>
+						<p>This will avoid some eventual inconsistency if some post is updated through the feeds, as for example, updated posts without images, since in the update of the post will not be inserted again the corresponding featured image, but will be used the image already inserted in the database , and this image could be the one you deleted. So when deleting images, do not forget to delete the corresponding post, so that instead of being updated, it will be inserted from scratch with all resources including images.</p>
+						<p>Disregard the instructions above if you use the options shown in 'Figure 13'.</p>
+						<hr>
+						<br/>
+						<p>The default page of WordPress will display them in the standard way, with highlighted texts and images, and with single pages, related posts, tags.</p>
+						<p><b>Post page list</b></p>
+						<u>Figure 17</u>
+						<p><img src="images/post-list-page-screen.jpg" alt="Post List Page"></p>
+					</div>	
+					
+					<div class="col-lg-12" id="customFront">  
+						<hr>
+						<h1>Custom Front Page </h1><hr>
+						<p>You can display your news on custom pages easily and with a pleasant look with <a href="http://webberaction.com/addfrontpost-plugin/" target="_blank"><b>Add Front Post</b> </a> plugin. Ideal for news sites and electronic magazines.</p>
+						<p>To learn more, watch the video below. Add custom front pages, with sliders, gallery sliders, image gallery, grids and more.</p>
+					</div>	
+
+					<div class="col-lg-12" id="customizer"> 
+						<hr>
+						<h1>Customizer </h1><hr>
+						<p>You can customize some colors in the frontend by going to <b>'Appearance -> Customize'</b> in the WordPress menu.</p>
+						<p>You will see the WordPress Customizer screen, go to the <b>'NewsFeeder Colors'</b> section, and you will see the following options:</p>
+
+						<p>1. <b>'Headline title'</b> - Defines the colors for the titles of the posts.</p>
+
+						<p>2. <b>'Link hover'</b> - Defines the colors for the link when the mouse is positioned above it.</p>
+
+						<p>3. <b>'Widget title'</b> - Sets the colors for the title of the widget section.</p>
+
+						<p>4. <b>'Widget  "VIEW ALL" link'</b> - Defines the colors for the 'VIEW ALL' link as shown below.</p>
+
+						<p>5. <b>'Widget "VIEW ALL" background'</b> - Defines the colors for the background of the link as show below.</p>
+					</div>
+					
+					<div class="col-lg-12" id="uninstall"> 
+						<hr>
+						<h1>Uninstall </h1><hr>
+
+						<p>Before uninstalling the plugin you may want to leave your database clean of the information processed by the plugin, to do this until the <b>'NewsFeeder -> Options'</b> menu of the plugin and click on the tab <b>'Clear Settings'</b>, then choose the options that you find Or simply check all and click the <b>'Save'</b> button.</p>
+
+						<p>To uninstall the plugin, just go to <b>'Plugins'</b> and go to <b>'NewsFeeder - Headlines'</b>, click on <b>'Deactivate'</b>. If you wish to remove it simply click on <b>'Delete'</b>, or <b>'Activate'</b> if you wish to activate it again.<p>
+					</div>
+					
+					<div class="col-lg-12" id="credits">
+						<hr>
+						<h1>Credits </h1><hr>
+
+						<p>This plugin uses the following third-party features:</p>
+
+						<ul>
+							<li>jQuery - https://jquery.com/</li>
+							<li>Bootstrap - getbootstrap.com/</li>
+							<li>Unity Gallery - unitegallery.net/</li>
+						</ul>
+						<hr>
+						<br/>
+					</div>
+						<br/>
+					<p><i><img src="images/wa.png" alt="WebberAction logo" style="width:auto;height:23px;margin-bottom:4px;"> Team</i></p>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+	
+	<div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+			</div>
+			<div class="modal-body">
+			  <img src="" class="enlargeImageModalSource" style="width: 100%;">
+			</div>
+		  </div>
+		</div>
+	</div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+	
+	<script>
+		$(function() {
+			$('img').on('click', function() {
+				$('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+				$('#enlargeImageModal').modal('show');
+			});
+		});
+	</script>
+	
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if ($(this).scrollTop()>0)
+			 {
+				$('.scroll-top').fadeIn();
+			 }
+			else
+			 {
+			  $('.scroll-top').fadeOut();
+			 }
+		});
+	 </script>
+
+</body>
+
+</html>
