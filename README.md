@@ -1,6 +1,6 @@
 # NewsFeeder
 
-### WordPress Plugin Headlines Generator
+## WordPress Plugin Headlines Generator
 
 
 ![news_back_screen3](https://user-images.githubusercontent.com/20075622/94387140-a2179300-011f-11eb-9d76-899b93128b2e.png)
@@ -32,7 +32,7 @@ The plugin has more than 27 of the most important news channels in the world, wh
 
 # Add Front Post
 
-### WordPress Plugin Front-Page Generator v.1.2
+## WordPress Plugin Front-Page Generator v.1.2
 
 
 ![header](https://user-images.githubusercontent.com/20075622/94387305-266a1600-0120-11eb-8bcd-d9a0b4fb4a1c.png)
