@@ -26,7 +26,7 @@ The plugin has more than 27 of the most important news channels in the world, wh
 #
 
 
-**> With NewsFeeder you can create magazine sites and headlines in real time, automatically generating new headlines every day. News will appear on your home page automatically**
+> **With NewsFeeder you can create magazine sites and headlines in real time, automatically generating new headlines every day. News will appear on your home page automatically**
 
 
 # Add Front Post
